@@ -1,10 +1,10 @@
 require 'lib.moonloader'
 
 local dlstatus = require ('moonloader').download_status
-local sv = 1
-local sv_t = '1.00'
+local sv = 2
+local sv_t = '1.50'
 local script_path = thisScript().path
-local script_url = ''
+local script_url = 'https://raw.githubusercontent.com/Ste1eeeven/bcapterupdates/main/bcapterupdate.lua'
 local inicfg = require 'inicfg'
 local update_path = getWorkingDirectory()..'/update.ini'
 local update_url = 'https://raw.githubusercontent.com/Ste1eeeven/bcapterupdates/main/update.ini'
@@ -46,5 +46,5 @@ function main()
 end
 
 function cmd_update(arg)
-	sampShowDialog(2228, 'Autoupdate', 'text', 'close', '', 0)
+	sampShowDialog(2228, 'Autoupdate v1.5', 'text', 'close', '', 0)
 end
