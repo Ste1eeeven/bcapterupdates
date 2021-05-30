@@ -36,7 +36,7 @@ function main()
 			downloadUrlToFile(script_url, script_path,function(id, status)
 				if status == dlstatus.STATUS_ENDDOWNLOADDATA then
 					sampAddChatMessage("Update loaded: true", -1)
-					thisScript().reload()
+					thisScript():reload()
 				end
 			end)
 			break
