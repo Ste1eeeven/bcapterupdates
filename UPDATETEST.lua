@@ -19,7 +19,7 @@ local script_vers_text = "2.00"
 local update_url = "https://raw.githubusercontent.com/Ste1eeeven/bcapterupdates/main/update.ini" -- тут тоже свою ссылку
 local update_path = getWorkingDirectory() .. "/update.ini" -- и тут свою ссылку
 
-local script_url = "https://github.com/thechampguess/scripts/blob/master/autoupdate_lesson_16.luac?raw=true" -- тут свою ссылку
+local script_url = "https://raw.githubusercontent.com/Ste1eeeven/bcapterupdates/main/UPDATETEST.lua" -- тут свою ссылку
 local script_path = thisScript().path
 
 
