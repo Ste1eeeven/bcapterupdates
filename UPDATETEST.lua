@@ -13,8 +13,8 @@ u8 = encoding.UTF8
 
 update_state = false
 
-local script_vers = 2
-local script_vers_text = "2.00"
+local script_vers = 4
+local script_vers_text = "4.00"
 
 local update_url = "https://raw.githubusercontent.com/Ste1eeeven/bcapterupdates/main/update.ini" -- тут тоже свою ссылку
 local update_path = getWorkingDirectory() .. "/update.ini" -- и тут свою ссылку
@@ -60,5 +60,5 @@ function main()
 end
 
 function cmd_update(arg)
-    sampShowDialog(1000, "Автообновление v3.0", "{FFFFFF}Это урок по обновлению\n{FFF000}Новая версия", "Закрыть", "", 0)
+    sampShowDialog(1000, "Автообновление v4.0", "{FFFFFF}Это урок по обновлению\n{FFF000}Новая версия", "Закрыть", "", 0)
 end
